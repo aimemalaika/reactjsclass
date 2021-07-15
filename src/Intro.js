@@ -1,7 +1,4 @@
-import React,{ Component } from 'react'
-import './App.css';
-
-import Header from './Header'
+import React, { Component} from 'react'
 
 class Intro extends Component{
   render(){
@@ -16,16 +13,4 @@ class Intro extends Component{
   }
 }
 
-
-class App extends Component {
-  render(){
-    return (
-      <div className="App">
-        <Header />
-        <Intro />
-      </div>
-    );
-  }
-}
-
-export default App;
+export default Intro;
